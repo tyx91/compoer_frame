@@ -1,8 +1,6 @@
 {
-    "name": "tian/compoer_frame",
-    "description": "a test composer project",
-    "type": "project",
-    "license": "MIT",
+    "name": "tyx/composer_frame",
+    "description": "a test project composer",
     "authors": [
         {
             "name": "田玉星",
