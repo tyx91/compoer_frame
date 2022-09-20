@@ -1,0 +1,14 @@
+{
+    "name": "tian/compoer_frame",
+    "description": "a test composer project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "田玉星",
+            "email": "tianyuxing91@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
