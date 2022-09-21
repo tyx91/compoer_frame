@@ -5,7 +5,8 @@
  * @author Tian.Yuxing
  * @email tianyuxing@sciall.org.cn
  * Date: 2022/9/22
- * Time: 06:32
+ * Time: 06:44
  */
-include_once "vendor/autoload.php";
-\core\Bootstrap::run();
+function test(){
+    print_r($_SERVER);die;
+}
