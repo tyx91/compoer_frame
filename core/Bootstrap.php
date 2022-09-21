@@ -28,7 +28,7 @@ class Bootstrap
            list($className,$action) = explode('/',$_GET['s']);
            $class = "\web\controller\\".ucfirst($className);
        }
-        (new $class)->$action();
+        echo (new $class)->$action();
 
     }
 }

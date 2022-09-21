@@ -10,13 +10,21 @@
 
 namespace web\controller;
 
+use core\View;
+
 /**
  * web\controller Index.
  */
 class Index
 {
+    public $viewer;
+    public function __construct()
+    {
+        $this->viewer = new View();
+    }
+
     public function show(){
-        echo "默认展示页";
+        return   $this->viewer->make('index')->with("username","tom");
     }
 
     public function user(){
